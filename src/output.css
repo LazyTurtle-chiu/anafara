@@ -1251,26 +1251,9 @@ video {
 
 /* GARCIA - HOMEPAGE CSS */
 
-.hp_bg-css {
+.hp-bg {
   background-image: url('../images/Talkbg.png');
-  background-repeat: no-repeat;
   background-position: right;
-  background-size: 70rem;
-}
-
-.hp_text-con {
-  margin-left: 8rem;
-  margin-right: 8rem;
-  margin-top: 8rem;
-}
-
-.hp_left-image {
-  width: 44rem;
-  height: 46rem;
-  margin-left: 16rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.hp_text-main {
-  line-height: 2.5rem;
+  background-repeat: no-repeat;
+  float: right;
 }
