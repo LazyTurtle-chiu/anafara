@@ -1260,6 +1260,7 @@ video {
 
 .hp-left-con {
   margin-left: 10rem;
+  padding-left: 20rem;
 
 }
 
@@ -1278,6 +1279,6 @@ video {
 
   .hp-left-con {
     margin-left: 0;
-  
+    padding-left: 2rem;
   }
 }
