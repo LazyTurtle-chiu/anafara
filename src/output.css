@@ -1252,10 +1252,30 @@ video {
 /* GARCIA - HOMEPAGE CSS */
 
 .hp-bg {
-  background-image: url('../images/Talkbg.png');
+  background-image: url('../images/hpbg.jpg');
   background-position: right;
   background-repeat: no-repeat;
-  float: right;
-  display: flex;
+  background-size: cover;
 }
 
+.hp-left-con {
+  margin-left: 10rem;
+
+}
+
+.hp-left-img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .hp-bg {
+    background-image: url('');
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .hp-left-con {
+    margin-left: 0;
+  
+  }
+}
