@@ -1270,8 +1270,10 @@ video {
 @media screen and (max-width: 480px) {
   .hp-bg {
     background-image: url('');
-    flex-direction: column;
-    justify-content: flex-end;
+  }
+
+  .hp-con {
+    flex-direction: column-reverse;
   }
 
   .hp-left-con {
