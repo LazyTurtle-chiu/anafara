@@ -1256,4 +1256,6 @@ video {
   background-position: right;
   background-repeat: no-repeat;
   float: right;
+  display: flex;
 }
+
