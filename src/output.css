@@ -1286,3 +1286,38 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+/* GARCIA - HOMEPAGE CSS */
+
+.hp-bg {
+  background-image: url('../images/hpbg.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hp-left-con {
+  margin-left: 10rem;
+  padding-left: 20rem;
+
+}
+
+.hp-left-img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .hp-bg {
+    background-image: url('');
+  }
+
+  .hp-con {
+    flex-direction: column-reverse;
+  }
+
+  .hp-left-con {
+    margin-left: 0;
+    padding-left: 2rem;
+  }
+}
+/* END OF GARCIA CUSTOM CSS */
