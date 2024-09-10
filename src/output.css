@@ -1304,6 +1304,7 @@ video {
 
 .hp-left-img {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-size: contain;
 }
 
 .hp-title-text {
@@ -1312,6 +1313,7 @@ video {
 }
 
 .hp-text {
+  text-align: justify;
   line-height: 2;
 }
 
@@ -1332,10 +1334,19 @@ video {
   }
 
   .hp-left-img {
-    width: 50%;
-    height: 30%;
+    width: 14rem;
+    height: 10rem;
     margin: auto;
     padding: 0.5rem;
+  }
+
+  .hp-title-text {
+    padding-top: 0%;
+    padding-bottom: 1rem;
+  }
+
+  .hp-text {
+    text-align: center;
   }
 }
 /* END OF HOMEPAGE CUSTOM CSS */
