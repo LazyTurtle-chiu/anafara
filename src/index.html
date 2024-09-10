@@ -42,34 +42,69 @@
     
     
 
-   <!-- HOMEPAGE Section -->
+          <!-- HOMEPAGE Section -->
     <div class="relative h-screen">
-   <div class="absolute inset-0 bg-[url('/images/hpbg.jpg')] bg-cover bg-center h-full w-full">
-    <!-- Background Image Container -->
-    </div>
-    <div class="relative bg-white/70 h-full flex items-center justify-center">
-    <div class="w-full max-w-screen-xl mx-auto px-4"> <!-- Container for fixed width -->
-      <div class="flex flex-col md:flex-row items-center justify-between h-full">
-        
-        <!-- Image on the Left with Adjusted White Background -->
-        <div class="w-full md:w-1/2 flex justify-center md:justify-end md:pr-4">
-          <div class="bg-white p-2 rounded-lg shadow-lg inline-block"> <!-- Adjusted white background container -->
-            <img src="/images/homepage picture.png" alt="Your Image" class="max-w-full h-auto">
-          </div>
-        </div>
+      <!-- Background Image Container for Desktop -->
+      <div class="absolute inset-0 bg-[url('/images/hpbg.jpg')] bg-cover bg-center h-full w-full hidden md:block">
+        <!-- Background Image Container visible only on desktop -->
+      </div>
+      <!-- Background Image Container for Mobile -->
+      <div class="absolute inset-0 bg-white h-full w-full md:hidden">
+        <!-- Empty background container for mobile, effectively hiding the image -->
+      </div>
+      <div class="relative bg-white/70 h-full flex items-center justify-center">
+        <div class="w-full max-w-screen-xl mx-auto px-4"> <!-- Container for fixed width -->
+          
+          <!-- Desktop View Container -->
+          <div class="hidden md:flex w-full max-w-4xl mx-auto h-[600px]"> <!-- Fixed width and height container for desktop -->
+            <div class="flex flex-row items-center justify-between h-full">
+              
+              <!-- Image on the Left with Adjusted White Background -->
+              <div class="w-1/2 flex justify-center pr-4">
+                <div class="bg-white p-2 rounded-lg shadow-lg inline-block"> <!-- Adjusted white background container -->
+                  <img src="/images/homepage picture.png" alt="Your Image" class="max-w-full h-auto">
+                </div>
+              </div>
 
-        <!-- Text on the Right -->
-        <div class="w-full md:w-1/2 mt-8 md:mt-0 md:pl-4">
-          <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Anafara</h1>
-          <p class="text-lg text-gray-600 mb-6">
-            We provide business packages, wholesale products, retail brands, ad development packages (including website design, Facebook marketing, other social media platform packages, brand photography, and more) to help your website or page stand out.
-          </p>
+              <!-- Text on the Right -->
+              <div class="w-1/2 pl-4">
+                <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Anafara</h1>
+                <p class="text-lg text-gray-600 mb-6">
+                  We provide business packages, wholesale products, retail brands, ad development packages (including website design, Facebook marketing, other social media platform packages, brand photography, and more) to help your website or page stand out.
+                </p>
+              </div>
+              
+            </div>
+          </div>
+
+          <!-- Mobile View Container -->
+          <div class="md:hidden w-full max-w-4xl mx-auto h-[600px]"> <!-- Fixed width and height container for mobile -->
+            <div class="flex flex-col items-center justify-center h-full">
+              
+              <!-- Text on the Top -->
+              <div class="w-full text-center mb-6">
+                <h1 class="text-3xl font-bold text-gray-800 mb-4">Welcome to Anafara</h1>
+                <p class="text-lg text-gray-600">
+                  We provide business packages, wholesale products, retail brands, ad development packages (including website design, Facebook marketing, other social media platform packages, brand photography, and more) to help your website or page stand out.
+                </p>
+              </div>
+
+              <!-- Image on the Bottom with Adjusted White Background -->
+              <div class="w-full flex justify-center">
+                <div class="bg-white p-2 rounded-lg shadow-lg inline-block"> <!-- Adjusted white background container -->
+                  <img src="/images/homepage picture.png" alt="Your Image" class="max-w-full h-auto">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
         </div>
-        
       </div>
     </div>
-     </div>
-    </div>
+
+
+
 
 
 
