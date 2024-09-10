@@ -151,16 +151,17 @@
     
 
 
+            <!--Values section-->
       <div class="flex flex-col items-center text-center">
-        <!-- CONTAINER to set fixed width and height -->
+
         <div class="w-full max-w-[1200px] h-auto md:h-[500px] mx-auto">
           <!-- Heading -->
-          <h2 class="text-center text-[#db8f0c] text-2xl md:text-[40px] font-medium font-['Poppins'] uppercase leading-[45px] tracking-wide p-8 md:p-16">
+          <h2 class="text-center text-[#db8f0c] text-2xl md:text-[40px] font-semibold font-['Poppins'] uppercase leading-[45px] tracking-wide p-8 md:p-16">
             VALUES
           </h2>
       
           <!-- Values Sections -->
-          <div class="flex flex-col md:flex-row justify-center gap-16 md:gap-24 items-center px-4">
+          <div class="hidden md:flex md:flex-row justify-center gap-16 md:gap-24 items-center px-4">
             <!-- Trust Section -->
             <div class="flex flex-col items-center text-center">
               <div class="p-5 md:p-2">
@@ -185,18 +186,41 @@
               <h3 class="text-2xl font-medium mt-4 md:mt-6 font-['Poppins']">AGILITY AND RESPONSIVE</h3>
             </div>
           </div>
+
         </div>
       </div>
 
-      <div id="About" class="bg-[#f5efef] rounded-[10px] p-8 md:p-16">
+      <div class="flex flex-col items-center md:hidden">
+        <div class="flex flex-row justify-center space-x-6">
+
+          <div class="flex flex-col items-center">
+            <img src="/images/Trust.png" alt="Trust Icon" class="w-16 h-16">
+            <p class=" text-center font-semibold">Trust</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/images/Commited.png" alt="Committed Icon" class="w-16 h-16">
+            <p class=" text-center font-semibold">Committed</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/images/Agility.png" alt="Agility Icon" class="w-16 h-16">
+            <p class=" text-center font-semibold">Agility and <br> Responsive</p>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+
+    <!--Our core values Desktop-->
+      <div id="OUR CORE VALUES" class="hidden md:flex bg-[#f5efef] rounded-[10px] p-8 md:p-16">
         <!-- CONTAINER with fixed width and height -->
         <div class="w-full max-w-[1200px] h-auto md:h-[700px] mx-auto">
+          <h1 class="text-4xl font-bold text-center text-[#d09042]">OUR CORE VALUES</h1>
           <!-- Title -->
           <div class="text-center mb-12">
-            <h1 class="text-4xl font-bold text-[#d09042]">OUR CORE VALUES</h1>
           </div>
-      
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-8"> 
+              <!--Our core values section Desktop-->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-8"> 
             <!-- Section 1 -->
             <section class="flex flex-col font-medium text-center pt-16 rounded-none max-w-[300px] text-zinc-800 relative">
               <img loading="lazy" src="/images/Core-values/OTD.png" 
@@ -263,6 +287,47 @@
           </div>
         </div>
       </div>
+
+<!-- Mobile -->
+<div id="Our Core values" class="md:hidden bg-[#f5efef] rounded-[10px] p-8 md:p-16 relative">
+  <h1 class="text-bold font-bold text-2xl my-8 text-[#d09042] text-center">OUR CORE VALUES</h1>
+
+  <div class="grid grid-cols-2 gap-4">
+    <!-- 1 Image and Overlay Text -->
+    <div class="relative">
+      <img src="/images/Core-values/OnTime-mobile.png" alt="" class="w-auto h-auto max-w-full" />
+      <p class="absolute inset-0 flex items-center justify-center text-black text-center font-bold text-sm">
+        On Time <br> Delivery
+      </p>
+    </div>
+
+    <!-- 2 Image and Overlay Text -->
+    <div class="relative">
+      <img src="/images/Core-values/OnTime-mobile.png" alt="" class="w-auto h-auto max-w-full" />
+      <p class="absolute inset-0 flex items-center justify-center text-black text-center font-bold text-sm">
+        Safety and Quality
+      </p>
+    </div>
+
+    <!-- 3 Image and Overlay Text -->
+    <div class="relative">
+      <img src="/images/Core-values/OnTime-mobile.png" alt="" class="w-auto h-auto max-w-full" />
+      <p class="absolute inset-0 flex items-center justify-center text-black text-center font-bold text-sm">
+        Innovation
+      </p>
+    </div>
+
+    <!-- 4 Image and Overlay Text -->
+    <div class="relative">
+      <img src="/images/Core-values/OnTime-mobile.png" alt="" class="w-auto h-auto max-w-full" />
+      <p class="absolute inset-0 flex items-center justify-center text-black text-center font-bold text-sm">
+        Agility and Responsiveness
+      </p>
+    </div>
+  </div>
+
+</div>
+</div>
 
           <!-- Registration -->
       <div class="bg-[#f5efef] rounded-[10px] p-8 md:p-16 max-w-[1200px] h-auto md:h-[800px] mx-auto">
