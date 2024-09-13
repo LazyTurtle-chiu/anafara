@@ -17,19 +17,19 @@
     <title>Anafara</title>
   </head>
   <body>
-    <header class="flex flex-col md:flex-row justify-between items-center px-12 py-4 bg-zinc-800 text-white sticky top-0 z-50 max-md:px-5">
-      <div class="flex items-center gap-10 mb-4 md:mb-0">
-        <img 
-          loading="lazy" 
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e5a0419df34afc900617cc4f6685a514f82df072f2f8c2a70033eb1787af96b7?placeholderIfAbsent=true&apiKey=aaea5f75e96943298882d23f4acf4687" 
-          alt="Company Logo" 
-          class="object-contain w-[117px] h-auto"
-        />
+    <header class="bg-zinc-800 h-[110px] sm:h-16">
+      <nav class="h-full flex flex-col justify-around items-center text-white sticky top-0 z-50 sm:px-5 sm:flex-row sm:justify-between">
+        <div class="flex items-center justify-center">
+          <img 
+            loading="lazy" 
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/e5a0419df34afc900617cc4f6685a514f82df072f2f8c2a70033eb1787af96b7?placeholderIfAbsent=true&apiKey=aaea5f75e96943298882d23f4acf4687" 
+            alt="Company Logo" 
+            class="object-contain w-20 h-auto"
+          />
       </div>
-      <nav class="text-xl font-semibold whitespace-nowrap">
         <!-- Mobile view adjustments: -->
 
-        <div class="block md:hidden">
+        <div class="block">
           <div class="grid grid-cols-3 gap-6 justify-items-center text-center">
             <a href="#" class="hover:text-[#05A8B3]" tabindex="0">Home</a>
             <a href="#About" class="hover:text-[#05A8B3]" tabindex="0">About</a>
@@ -38,13 +38,13 @@
         </div>
 
         <!-- Desktop view (original) -->
-        <div
+        <!-- <div
           class="hidden md:flex md:flex-row gap-4 md:gap-20 pr-20 text-xl font-semibold whitespace-nowrap"
         >
           <a href="#" class="hover:text-[#05A8B3]" tabindex="0">Home</a>
           <a href="#About" class="hover:text-[#05A8B3]" tabindex="0">About</a>
           <a href="#Contact" class="hover:text-[#05A8B3]" tabindex="0">Contact</a>
-        </div>
+        </div> -->
       </nav>
     </header>
     
