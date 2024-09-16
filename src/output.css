@@ -741,6 +741,10 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.aspect-\[2\/3\] {
+  aspect-ratio: 2/3;
+}
+
 .size-full {
   width: 100%;
   height: 100%;
