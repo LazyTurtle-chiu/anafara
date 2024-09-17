@@ -690,10 +690,6 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.aspect-auto {
-  aspect-ratio: auto;
-}
-
 .h-12 {
   height: 3rem;
 }
@@ -735,6 +731,10 @@ video {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -759,21 +759,17 @@ video {
   width: 1px;
 }
 
-.w-\[238px\] {
-  width: 238px;
-}
-
 .w-auto {
   width: auto;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-2xl {
@@ -852,10 +848,6 @@ video {
   justify-items: center;
 }
 
-.gap-12 {
-  gap: 3rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -874,23 +866,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-7 {
-  gap: 1.75rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-x-5 {
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
 }
 
 .gap-x-3 {
@@ -1033,16 +1008,16 @@ video {
   padding: 0.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-3 {
@@ -1053,11 +1028,6 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .px-6 {
@@ -1322,10 +1292,6 @@ video {
     width: auto;
   }
 
-  .sm\:w-\[200px\] {
-    width: 200px;
-  }
-
   .sm\:max-w-sm {
     max-width: 24rem;
   }
@@ -1466,10 +1432,6 @@ video {
     width: auto;
   }
 
-  .md\:w-\[200px\] {
-    width: 200px;
-  }
-
   .md\:max-w-full {
     max-width: 100%;
   }
@@ -1596,14 +1558,14 @@ video {
     margin-right: 1rem;
   }
 
-  .lg\:my-7 {
-    margin-top: 1.75rem;
-    margin-bottom: 1.75rem;
-  }
-
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .lg\:my-7 {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
   }
 
   .lg\:mt-8 {
@@ -1630,32 +1592,12 @@ video {
     width: 230px;
   }
 
-  .lg\:max-w-\[500px\] {
-    max-width: 500px;
-  }
-
-  .lg\:max-w-\[750px\] {
-    max-width: 750px;
-  }
-
-  .lg\:max-w-\[850px\] {
-    max-width: 850px;
-  }
-
-  .lg\:max-w-\[1000px\] {
-    max-width: 1000px;
-  }
-
   .lg\:max-w-\[950px\] {
     max-width: 950px;
   }
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:space-y-2 > :not([hidden]) ~ :not([hidden]) {
