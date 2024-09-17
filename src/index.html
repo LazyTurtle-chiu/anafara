@@ -63,33 +63,33 @@
           class="h-auto w-[180px] md:m-2 lg:w-[230px] 2xl:w-[260px]">
       </div>
     </section>
-    <section id="About" class="rounded-[10px] pt-[130px] px-3 container mx-auto sm:pt-20">
+    <div id="About" class="rounded-[10px] pt-[130px] px-3 container mx-auto sm:pt-20">
       <!-- ABOUT US Section -->
-      <div>
+      <section>
         <h1 class="text-center text-[#db8f0c] text-4xl 2xl:text-5xl font-semibold">
           ABOUT US
         </h1>
-        <p class="text-center leading-6 md:leading-[30px] tracking-wide max-w-4xl mx-auto xl:text-xl">
+        <p class="text-center leading-6 md:leading-[30px] tracking-wide max-w-4xl mx-auto py-7 xl:text-xl">
           ANAFARA currently has strategic partners in different industries. We are specialized in providing supplies for
           wholesale market and retail products. ANAFARA makes sure to meet your needs. We create value by applying our
           in-depth, specialized knowledge and drawing on lessons learnt. We offer to ease the everyday tasks of the
           business community through our A-to-Z solutions.
         </p>
-      </div>
+      </section>
 
       <!-- Mission and Vision Section -->
-      <div class="flex flex-col sm:flex-row justify-between items-center my-7">
+      <section class="flex flex-col sm:flex-row justify-between items-center py-7">
         <!-- Mission -->
         <div class="flex flex-col justify-center items-center gap-2 p-2 md:w-1/2">
-          <div
+          <h1
             class="text-center text-[#db8f0c] text-2xl font-medium uppercase leading-[45px] tracking-wide 2xl:text-3xl">
             Mission
-          </div>
-          <div
+          </h1>
+          <p
             class="text-justify text-black text-base leading-6 md:leading-[30px] tracking-wide md:text-center xl:text-xl">
             To become the Philippines' preferred supply chain trading company - applying insights, service quality and
             innovation to create sustainable growth for business and society.
-          </div>
+          </p>
         </div>
 
         <!-- Separator Line -->
@@ -97,161 +97,116 @@
 
         <!-- Vision -->
         <div class="flex flex-col justify-center items-center gap-2 p-2 md:w-1/2">
-          <div
+          <h1
             class="text-center text-[#db8f0c] text-2xl font-medium uppercase leading-[45px] tracking-wide 2xl:text-3xl">
             Vision
-          </div>
-          <div
+          </h1>
+          <p
             class="text-justify text-black text-base leading-6 md:leading-[30px] tracking-wide md:text-center xl:text-xl">
             To be the preferred partner in supplying products for the cosmetics, clothing, food and other services
             industry.
-            </>
+          </p>
+        </div>
+      </section>
+
+      <!--Values section-->
+      <section>
+        <h1 class="text-center text-[#db8f0c] text-4xl 2xl:text-5xl font-semibold">
+          VALUES
+        </h1>
+        <div class=" flex flex-wrap justify-center gap-5 py-7 md:justify-around">
+          <!-- Trust Section -->
+          <div class="flex flex-col justify-center items-center text-center w-[100px] md:w-auto">
+            <div class="">
+              <img src="../images/Trust.png" alt="Trust Icon" style="aspect-ratio: 1/1;" class="w-16 md:w-32">
+            </div>
+            <h3 class="text-base font-semibold ">TRUST</h3>
+          </div>
+
+          <!-- Committed Section -->
+          <div class="flex flex-col justify-center items-center text-center w-[100px]">
+            <div class="">
+              <img src="../images/Commited.png" alt="Committed Icon" class="h-16 md:w-48 md:h-32"
+                style="aspect-ratio: 2/3;">
+            </div>
+            <h3 class="text-base font-semibold">COMMITTED</h3>
+          </div>
+
+          <!-- Agility and Responsive Section -->
+          <div class="flex flex-col justify-center items-center text-center w-[100px]">
+            <div class="">
+              <img src="../images/Agility.png" alt="Agility and Responsive Icon" style="aspect-ratio: 2/3;"
+                class="h-16 md:h-32">
+            </div>
+            <h3 class="text-base font-semibold">AGILITY AND <br /> RESPONSIVE</h3>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!--Our core values section-->
+
+      <section id="Our Core values">
+        <h1 class="text-center text-[#db8f0c] text-4xl 2xl:text-5xl font-semibold"> OUR CORE VALUES</h1>
+        <div class="grid grid-cols-2 gap-2 py-7 sm:grid-cols-4">
+          <!-- 1 Image and Overlay Text -->
+          <div class="relative ">
+            <img src="/images/Core-values/OnTime-mobile.png" alt="image"
+              class="w-auto h-auto max-w-full mx-auto lg:hidden" />
+            <div class="absolute inset-0 flex items-center justify-center lg:hidden">
+              <h3 class="text-sm">
+                On Time <br> Delivery
+              </h3>
+            </div>
+            <img src="/images/Core-values/Ontime.png" alt="" class="hidden w-auto h-auto max-w-full lg:block" />
+          </div>
+          <div class="hidden lg:relative lg:mx-4">
+
+          </div>
+          <!-- 2 Image and Overlay Text -->
+          <div class="relative">
+            <img src="/images/Core-values/Safety-mobile.png" alt="image"
+              class="w-auto h-auto max-w-full mx-auto lg:hidden" />
+            <div class="absolute inset-0 flex items-center justify-center lg:hidden">
+              <h3 class="text-sm">
+                Safety and Quality
+              </h3>
+            </div>
+            <img src="/images/Core-values/Agility.png" alt="" class="hidden w-auto h-auto max-w-full lg:block" />
+          </div>
+
+          <!-- 3 Image and Overlay Text -->
+          <div class="relative">
+            <img src="/images/Core-values/Innovation-mobile.png" alt=""
+              class="w-auto h-auto max-w-full mx-auto lg:hidden" />
+            <div class="absolute inset-0 flex items-center justify-center lg:hidden">
+              <h3 class="text-sm">
+                Innovation
+              </h3>
+            </div>
+            <img src="/images/Core-values/Innovation.png" alt="" class="hidden w-auto h-auto max-w-full lg:block" />
+          </div>
+
+
+          <!-- 4 Image and Overlay Text -->
+          <div class="relative">
+            <img src="/images/Core-values/Agility-mobile.png" alt=""
+              class="w-auto h-auto max-w-full mx-auto lg:hidden" />
+            <div class="absolute inset-0 flex items-center justify-center lg:hidden">
+              <h3 class="text-sm text-center">
+                Agility and <br> Responsiveness
+              </h3>
+            </div>
+            <img src="/images/Core-values/Agility.png" alt="" class="hidden w-auto h-auto max-w-full lg:block" />
+          </div>
+        </div>
+
+
+
+
+      </section>
+    </div>
   </main>
 
 
-
-
-
-
-
-  <!--------------------------------------------------------------------------------------------ABOUT US------------------------------------------------------------------------------------------------->
-
-  <!-- ABOUT US Section -->
-
-
-  <!-- Mission and Vision Section -->
-  <div class="flex flex-col sm:flex-row justify-between items-center my-7">
-    <!-- Mission -->
-    <div class="flex flex-col justify-center items-center gap-2 p-2 md:w-1/2">
-      <div class="text-center text-[#db8f0c] text-2xl font-medium uppercase leading-[45px] tracking-wide 2xl:text-3xl">
-        Mission
-      </div>
-      <div
-        class="text-justify text-black text-base leading-6 md:leading-[30px] tracking-wide md:text-center xl:text-xl">
-        To become the Philippines' preferred supply chain trading company - applying insights, service quality and
-        innovation to create sustainable growth for business and society.
-      </div>
-    </div>
-
-    <!-- Separator Line -->
-    <div class="hidden md:block h-[154.91px] w-[1px] bg-[#d1d1d1] mx-4"></div>
-
-    <!-- Vision -->
-    <div class="flex flex-col justify-center items-center gap-2 p-2 md:w-1/2">
-      <div class="text-center text-[#db8f0c] text-2xl font-medium uppercase leading-[45px] tracking-wide 2xl:text-3xl">
-        Vision
-      </div>
-      <div
-        class="text-justify text-black text-base leading-6 md:leading-[30px] tracking-wide md:text-center xl:text-xl">
-        To be the preferred partner in supplying products for the cosmetics, clothing, food and other services
-        industry.
-        </>
-      </div>
-    </div>
-  </div>
-
-
-  <!--------------------------------------------------------------------------------------------VALUES------------------------------------------------------------------------------------------------->
-
-  <!--Values section-->
-  <div class="flex flex-col items-center text-center">
-
-    <!--Desktop Values section-->
-    <div class="w-full max-w-[1400px] h-auto lg:h-[450px] mx-auto">
-      <!-- Heading -->
-      <div class="hidden lg:block text-center text-[#db8f0c] text-3xl md:text-5xl font-semibold font-['Poppins'] mb-6">
-        VALUES
-      </div>
-
-      <!-- Values Sections -->
-      <div class="hidden lg:flex xl:flex-row justify-center gap-24 xl:gap-40 items-center px-8">
-        <!-- Trust Section -->
-        <div class="flex flex-col items-center text-center">
-          <div class="p-6 xl:p-8">
-            <img src="../images/Trust.png" alt="Trust Icon" class="xl:w-60 xl:h-60">
-          </div>
-          <h3 class="text-2xl xl:text-3xl font-medium mt-6 xl:mt-8 font-['Poppins']">TRUST</h3>
-        </div>
-
-        <!-- Committed Section -->
-        <div class="flex flex-col items-center text-center">
-          <div class="p-6 xl:p-8">
-            <img src="../images/Commited.png" alt="Committed Icon" class="xl:w-60 xl:h-60">
-          </div>
-          <h3 class="text-2xl xl:text-3xl font-medium mt-6 xl:mt-8 font-['Poppins']">COMMITTED</h3>
-        </div>
-
-        <!-- Agility and Responsive Section -->
-        <div class="flex flex-col items-center text-center">
-          <div class="p-6 xl:p-8">
-            <img src="../images/Agility.png" alt="Agility and Responsive Icon" class="xl:w-60 xl:h-60">
-          </div>
-          <h3 class="text-2xl xl:text-3xl font-medium mt-6 xl:mt-8 font-['Poppins']">AGILITY AND RESPONSIVE</h3>
-        </div>
-      </div>
-    </div>
-
-    <!--Tablet-->
-    <div class="hidden md:flex lg:hidden mt-20">
-      <div class="flex flex-col items-center">
-        <!-- Visible VALUES Heading for Tablet -->
-        <div
-          class="text-center text-[#db8f0c] text-2xl md:text-[40px] font-semibold font-['Poppins'] uppercase leading-[45px] tracking-wide p-8 md:p-16">
-          VALUES
-        </div>
-
-        <div class="flex flex-row justify-center space-x-12">
-          <div class="flex flex-col items-center">
-            <img src="../images/Trust.png" alt="Trust Icon" class="w-30 h-30">
-            <p class=" text-center text-3xl font-semibold">Trust</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../images/Commited.png" alt="Committed Icon" class="w-30 h-30">
-            <p class=" text-center text-3xl font-semibold">Committed</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../images/Agility.png" alt="Agility Icon" class="w-30 h-30">
-            <p class=" text-center text-3xl font-semibold">Agility and <br> Responsive</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Mobile Values Section -->
-
-    <div class="flex flex-col items-center text-center md:hidden lg:hidden">
-      <!-- Visible VALUES Heading for Mobile -->
-      <div class="text-center text-[#db8f0c] text-2xl font-semibold font-['Poppins'] uppercase leading-[45px] mb-4"
-        style="font-size: 2.25rem; line-height: 2.25rem; margin-bottom: 1.5rem;">
-        VALUES
-      </div>
-
-      <div class="flex flex-col items-center">
-        <div class="flex flex-row justify-center space-x-4 mb-4">
-          <div class="flex flex-col items-center">
-            <img src="../images/Trust.png" alt="Trust Icon" class="w-16 h-16">
-            <p class="text-center font-semibold">Trust</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../images/Commited.png" alt="Committed Icon" class="w-16 h-16">
-            <p class="text-center font-semibold">Committed</p>
-          </div>
-        </div>
-
-        <div class="flex flex-col items-center">
-          <img src="../images/Agility.png" alt="Agility Icon" class="w-16 h-16">
-          <div class="flex flex-col items-center">
-            <p class="text-center font-semibold">Agility and Responsive</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
 
 
 
