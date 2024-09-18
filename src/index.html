@@ -227,11 +227,11 @@
         </div>
       </section>
       <!-- business under anafara -->
-      <section>
+      <section id="business_under_anafara">
         <h1 class="text-center text-[#db8f0c] text-4xl 2xl:text-5xl font-semibold">
           BUSINESSES UNDER ANAFARA
         </h1>
-        <div class="py-7 flex flex-wrap gap-x-3 gap-y-5">
+        <div class="py-7 flex flex-wrap gap-x-3 gap-y-5 lg:grid lg:grid-cols-3 lg:gap-y-10 lg:justify-item-center">
           <!-- Business 1 -->
           <article
             class="mx-auto h-fit  p-4 flex flex-col justify-center items-center rounded-xl border border-solid bg-stone-100 border-orange-100 border-opacity-10 shadow-[4px_4px_5px_rgba(0,0,0,0.25)] aspect-square w-fit">
@@ -324,7 +324,7 @@
 
           <!-- Business 7 -->
           <article
-            class="mx-auto h-fit  p-4 flex flex-col justify-center items-center rounded-xl border border-solid bg-stone-100 border-orange-100 border-opacity-10 shadow-[4px_4px_5px_rgba(0,0,0,0.25)] aspect-square w-fit">
+            class="mx-auto h-fit  p-4 flex flex-col justify-center items-center rounded-xl border border-solid bg-stone-100 border-orange-100 border-opacity-10 shadow-[4px_4px_5px_rgba(0,0,0,0.25)] aspect-square w-fit lg:row-start-3 lg:col-span-3">
             <div class="relative group">
               <img loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/bc30b6786cf522c40f561bb9dffc858c6c52d64ee40407f4c4388b5b4bc3dbfa?placeholderIfAbsent=true&apiKey=aaea5f75e96943298882d23f4acf4687"
@@ -397,7 +397,7 @@
           <div class="flex flex-col justify-center lg:w-2/5 md:px-6">
             <div class="p-5 border border-[#05A8B3] rounded-xl">
               <h3 class="text-xl font-semibold  text-[#05A8B3]">LEAVE A MESSAGE</h3>
-              <p class="text-xs py-5 ">Send us your thoughts or questions, and we'll be in
+              <p class="text-sm py-5 ">Send us your thoughts or questions, and we'll be in
                 touch soon.</p>
               <button onclick="toggleModal()" class="bg-[#05A8B3] text-white px-6 py-2 rounded-3xl hover:bg-[#0598a1]">
                 SEND MESSAGE
@@ -418,13 +418,6 @@
     </section>
   </main>
 
-  <!-- Contact Section -->
-
-
-
-
-
-
   <!-- Modal -->
   <div id="messageModal" class="fixed inset-0 bg-black bg-opacity-50 hidden justify-center items-center z-50">
     <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-lg relative">
@@ -435,7 +428,8 @@
       <p class="text-gray-600 mb-4">Send us your thoughts or questions, and we'll be in touch soon.</p>
 
       <!-- Form Inside Modal -->
-      <form>
+      <form class="flex flex-col gap-2" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="3cf4865f-65cc-4f45-9002-f8c13d5b8b14" />
         <div class="grid grid-cols-2 gap-4 mb-4">
           <input type="text" placeholder="Your Name" class="border rounded p-2 w-full">
           <input type="email" placeholder="Your Email" class="border rounded p-2 w-full">
@@ -452,15 +446,6 @@
       </form>
     </div>
   </div>
-
-  <script>
-    function toggleModal() {
-      const modal = document.getElementById("messageModal");
-      modal.classList.toggle("hidden");
-      modal.classList.toggle("flex");
-    }
-  </script>
-
 
   <!--------------------------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------------------------->
   <!-- Footer Section -->
@@ -517,7 +502,7 @@
     </div>
   </footer>
 
-
+  <script src="/js/modal.js"></script>
 
 </body>
 
